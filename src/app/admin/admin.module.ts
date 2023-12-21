@@ -22,6 +22,13 @@ const routes: Routes = [
             (m) => m.DashboardModule
           ),
       },
+      {
+        path: '',
+        loadChildren: () =>
+          import('../fixed-asset/fixed-asset.module').then(
+            (m) => m.FixedAssetModule
+          ),
+      },
     ],
   },
 ];

@@ -11,6 +11,7 @@ import {RouterModule} from "@angular/router";
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { TranslateModule } from '@ngx-translate/core';
+import { MmsCommonModule } from '../mms-common/mms-common.module';
 
 
 
@@ -20,6 +21,7 @@ import { TranslateModule } from '@ngx-translate/core';
   ],
   imports: [
     CommonModule,
+    MmsCommonModule,
       MatGridListModule,
       MatCardModule,
       MatIconModule,

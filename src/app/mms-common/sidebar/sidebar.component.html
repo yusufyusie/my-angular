@@ -11,9 +11,14 @@
 
     <h2 matSubheader>Pages</h2>
 
-    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">Dashboard</a>
-    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">Item 1</a>
-    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">Item 2</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="../admin/dashboard"><mat-icon>dashboard</mat-icon>Dashboard</a>
+
+    <mat-divider></mat-divider>
+    <h2 matSubheader>Fixed Assets</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="../admin/insert"><mat-icon>list</mat-icon>Insert Assets</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="../admin/distribute">Distribute Assets</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">Tranfer Assets</a>
 
     <mat-divider></mat-divider>
 
