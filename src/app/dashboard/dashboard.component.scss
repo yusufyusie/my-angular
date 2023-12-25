@@ -1,0 +1,63 @@
+P {
+    text-align: right;
+    justify-content: center;
+    }
+    
+.text {
+    margin-top: 40px;
+    margin-right: 30px;
+    }
+
+.cards {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card1 { 
+    background: linear-gradient( #1f1235,#ff6e6c);
+    color: #f1f1f1;    
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    } 
+
+.card2 { 
+    background: linear-gradient( #00473e,#475d5b);
+    color: #f1f1f1;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    } 
+
+.card3 { 
+    background: linear-gradient( #faae2b,#00473e);
+    color: #f1f1f1;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    } 
+.card4 {  
+    background: linear-gradient( #078080, #078080);
+    color: #f1f1f1;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    } 
+
+.card1:hover {
+    transform: scale(1.1);
+    }
+      
+.card2:hover {
+    transform: scale(1.1);
+    } 
+      
+.card3:hover {
+    transform: scale(1.1);
+    }
+      
+.card4:hover {
+    transform: scale(1.1);
+    } 
+    
+    

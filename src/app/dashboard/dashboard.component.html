@@ -1,1 +1,33 @@
-<p>dashboard works!</p>
+<mat-toolbar color="primary">My Dashboard</mat-toolbar>
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="cards" style="margin: 42px 42px 42px 42px;">
+
+  <mat-card fxFlex="25"  class="card1" style="height: 130px;"> 
+    <div class="text">  
+        <p style="font-size: 2em;  font-weight: 900;"> {{ totalAssets }}  </p>
+        <p style="font-size: 12px;">TOTAL ASSETS</p>
+    </div>
+  </mat-card>
+
+  <mat-card fxFlex="25" class="card2"  style="height: 130px;">
+    <div class="text">
+        <P style="font-size: 2em;  font-weight: 900;">{{ distrubuteAssets }}</P>
+        <P style="font-size: 12px;">DISTRBUTED ASSETS</P>
+    </div>
+  </mat-card> 
+
+  <mat-card fxFlex="25" class="card3"  style="height: 130px;">
+    <div class="text">
+        <P style="font-size: 2em;  font-weight: 900;">{{ transferAssets }}</P>
+        <P style="font-size: 12px;">TRANSFER ASSETS<P>
+    </div>
+   </mat-card> 
+
+    <mat-card fxFlex="25"  class="card4" style="height: 130px;">
+    <div class="text">
+            <P style="font-size: 2em;  font-weight: 900;">{{ distroyAssets }}</P>
+            <P style="font-size: 12px;">DESTROYED ASSETS</P>
+        </div>
+    </mat-card> 
+
+</div> 
+

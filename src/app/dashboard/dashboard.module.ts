@@ -12,6 +12,7 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { TranslateModule } from '@ngx-translate/core';
 import { MmsCommonModule } from '../mms-common/mms-common.module';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 
@@ -23,6 +24,7 @@ import { MmsCommonModule } from '../mms-common/mms-common.module';
     CommonModule,
     MmsCommonModule,
       MatGridListModule,
+      MatToolbarModule,
       MatCardModule,
       MatIconModule,
       MatMenuModule,
