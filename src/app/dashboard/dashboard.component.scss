@@ -10,12 +10,12 @@ P {
 
 .cards {
     position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .card1 { 
     background: linear-gradient( #272343,#2d334a);
-    color: #f1f1f1;    
+    color: #fffffe;    
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -23,7 +23,7 @@ P {
 
 .card2 { 
     background: linear-gradient( #e16162,#1f1235);
-    color: #f1f1f1;
+    color: #fffffe;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -31,14 +31,14 @@ P {
 
 .card3 { 
     background: linear-gradient( #faae2b,#00473e);
-    color: #f1f1f1;
+    color: #fffffe;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
     } 
 .card4 {  
     background: linear-gradient( #078080, #078080);
-    color: #f1f1f1;
+    color: #fffffe;
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -46,18 +46,22 @@ P {
 
 .card1:hover {
     transform: scale(1.1);
+    color: #eebbc3;
     }
       
 .card2:hover {
     transform: scale(1.1);
+    color: #4fc4cf;
     } 
       
 .card3:hover {
     transform: scale(1.1);
+    color: #bae8e8;
     }
       
 .card4:hover {
     transform: scale(1.1);
+    color: #ff8906;
     } 
     
     
