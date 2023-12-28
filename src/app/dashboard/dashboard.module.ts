@@ -13,6 +13,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { TranslateModule } from '@ngx-translate/core';
 import { MmsCommonModule } from '../mms-common/mms-common.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { NgApexchartsModule } from 'ng-apexcharts';
 
 
 
@@ -32,6 +33,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
       NgxChartsModule,
       FlexLayoutModule,
       TranslateModule,
+      NgApexchartsModule,
       RouterModule.forChild([
         {path: '', component: DashboardComponent}
       ])
